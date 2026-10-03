@@ -304,7 +304,7 @@ The automated database seeder provides two verified local testing accounts:
 
 **Mohamed Elshahat Ibrahim**
 * **GitHub:** [@mohamedfakhar](https://github.com/mohamedfakhar)
-* **LinkedIn:** [Mohamed Fakhr](https://www.linkedin.com/in/mohamed-fakhr)
+* **LinkedIn:** [Mohamed Fakhr](https://www.linkedin.com/in/mohamedfakhr/)
 
 ---
 
