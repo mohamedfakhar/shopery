@@ -1,0 +1,375 @@
+{
+  "categories": [
+    {
+      "name": "Fresh Fruit",
+      "slug": "fresh-fruit",
+      "image": "/images/categories/image-fruits.png"
+    },
+    {
+      "name": "Fresh Vegetables",
+      "slug": "fresh-vegetables",
+      "image": "/images/categories/image-icon-vegitables.png"
+    },
+    {
+      "name": "Meat & Fish",
+      "slug": "meat-fish",
+      "image": "/images/categories/image-meat.png"
+    },
+    {
+      "name": "Snacks",
+      "slug": "snacks",
+      "image": "/images/categories/image-icon-snaks.png"
+    },
+    {
+      "name": "Beverages",
+      "slug": "beverages",
+      "image": "/images/categories/img-12.png"
+    },
+    {
+      "name": "Beauty & Health",
+      "slug": "beauty-health",
+      "image": "/images/categories/image-icon-beauty.png"
+    },
+    {
+      "name": "Bread & Bakery",
+      "slug": "bread-bakery",
+      "image": "/images/categories/image-icon-snaks2.png"
+    },
+    {
+      "name": "Baking Needs",
+      "slug": "baking-needs",
+      "image": "/images/categories/img-06.png"
+    },
+    {
+      "name": "Cooking",
+      "slug": "cooking",
+      "image": "/images/categories/img-07.png"
+    },
+    {
+      "name": "Diabetic Food",
+      "slug": "diabetic-food",
+      "image": "/images/categories/img-08.png"
+    },
+    {
+      "name": "Dish Detergents",
+      "slug": "dish-detergents",
+      "image": "/images/categories/image-soda.png"
+    },
+    {
+      "name": "Oil",
+      "slug": "oil",
+      "image": "/images/categories/image-oil.png"
+    }
+  ],
+  "products": [
+    {
+      "name": "Orange",
+      "slug": "orange",
+      "category_id": "fresh-fruit",
+      "thumbnail": "/images/products/img-02.png",
+      "images": [
+        "/images/products/img-02.png",
+        "/images/products/img-02.png",
+        "/images/products/img-02.png",
+        "/images/products/img-02.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": 7.49,
+      "on_sale": true,
+      "sale_label": "50%",
+      "in_stock": true,
+      "rating": 4.5,
+      "review_count": 524,
+      "is_hot_deal": true,
+      "tags": [
+        "fruit",
+        "fresh",
+        "organic"
+      ]
+    },
+    {
+      "name": "Green Apple",
+      "slug": "green-apple",
+      "category_id": "fresh-fruit",
+      "thumbnail": "/images/products/img-01.png",
+      "images": [
+        "/images/products/img-01.png",
+        "/images/products/img-01.png",
+        "/images/products/img-01.png",
+        "/images/products/img-01.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": null,
+      "on_sale": false,
+      "sale_label": null,
+      "in_stock": true,
+      "rating": 4.3,
+      "review_count": 210,
+      "is_hot_deal": true,
+      "tags": [
+        "fruit",
+        "fresh"
+      ]
+    },
+    {
+      "name": "Chinese Cabbage",
+      "slug": "chinese-cabbage",
+      "category_id": "fresh-vegetables",
+      "thumbnail": "/images/products/img-03.png",
+      "images": [
+        "/images/products/img-03.png",
+        "/images/products/img-03.png",
+        "/images/products/img-03.png",
+        "/images/products/img-03.png",
+        "/images/products/img-03.png"
+      ],
+      "regular_price": 48,
+      "sale_price": 17.28,
+      "on_sale": true,
+      "sale_label": "64%",
+      "in_stock": true,
+      "stock_quantity": 5413,
+      "rating": 4.7,
+      "review_count": 524,
+      "is_hot_deal": true,
+      "hot_deal_ends_at": "2026-04-01T23:59:59Z",
+      "brand": "Farmarys",
+      "sku": "2,51,594",
+      "weight": "3kg",
+      "type": "Organic",
+      "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nibh diam, blandit vel consequat nec, ultrices et ipsum.",
+      "tags": [
+        "Vegetables",
+        "Healthy",
+        "Chinese",
+        "Cabbage",
+        "Green Cabbage"
+      ]
+    },
+    {
+      "name": "Green Lettuce",
+      "slug": "green-lettuce",
+      "category_id": "fresh-vegetables",
+      "thumbnail": "/images/products/img-04.png",
+      "images": [
+        "/images/products/img-04.png",
+        "/images/products/img-04.png",
+        "/images/products/img-04.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": null,
+      "on_sale": false,
+      "sale_label": null,
+      "in_stock": true,
+      "rating": 4.2,
+      "review_count": 98,
+      "is_hot_deal": true,
+      "tags": [
+        "vegetable",
+        "fresh"
+      ]
+    },
+    {
+      "name": "Eggplant",
+      "slug": "eggplant",
+      "category_id": "fresh-vegetables",
+      "thumbnail": "/images/products/img-05.png",
+      "images": [
+        "/images/products/img-05.png",
+        "/images/products/img-05.png",
+        "/images/products/img-05.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": null,
+      "on_sale": false,
+      "sale_label": null,
+      "in_stock": true,
+      "rating": 4,
+      "review_count": 75,
+      "is_hot_deal": true,
+      "tags": [
+        "vegetable",
+        "fresh"
+      ]
+    },
+    {
+      "name": "Big Potatoes",
+      "slug": "big-potatoes",
+      "category_id": "fresh-vegetables",
+      "thumbnail": "/images/products/img-06.png",
+      "images": [
+        "/images/products/img-06.png",
+        "/images/products/img-06.png",
+        "/images/products/img-06.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": null,
+      "on_sale": false,
+      "sale_label": null,
+      "in_stock": true,
+      "rating": 4.1,
+      "review_count": 143,
+      "is_hot_deal": true,
+      "tags": [
+        "vegetable",
+        "fresh"
+      ]
+    },
+    {
+      "name": "Corn",
+      "slug": "corn",
+      "category_id": "fresh-vegetables",
+      "thumbnail": "/images/products/img-07.png",
+      "images": [
+        "/images/products/img-07.png",
+        "/images/products/img-07.png",
+        "/images/products/img-07.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": null,
+      "on_sale": false,
+      "sale_label": null,
+      "in_stock": true,
+      "rating": 4.4,
+      "review_count": 89,
+      "is_hot_deal": true,
+      "tags": [
+        "vegetable",
+        "fresh"
+      ]
+    },
+    {
+      "name": "Fresh Cauliflower",
+      "slug": "fresh-cauliflower",
+      "category_id": "fresh-vegetables",
+      "thumbnail": "/images/products/img-08.png",
+      "images": [
+        "/images/products/img-08.png",
+        "/images/products/img-08.png",
+        "/images/products/img-08.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": null,
+      "on_sale": false,
+      "sale_label": null,
+      "in_stock": true,
+      "rating": 4.3,
+      "review_count": 61,
+      "tags": [
+        "vegetable",
+        "fresh"
+      ]
+    },
+    {
+      "name": "Green Capsicum",
+      "slug": "green-capsicum",
+      "category_id": "fresh-vegetables",
+      "thumbnail": "/images/products/img-09.png",
+      "images": [
+        "/images/products/img-09.png",
+        "/images/products/img-09.png",
+        "/images/products/img-09.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": null,
+      "on_sale": false,
+      "sale_label": null,
+      "in_stock": true,
+      "rating": 4.2,
+      "review_count": 44,
+      "tags": [
+        "vegetable",
+        "fresh"
+      ]
+    },
+    {
+      "name": "Green Chili",
+      "slug": "green-chili",
+      "category_id": "fresh-vegetables",
+      "thumbnail": "/images/products/img-10.png",
+      "images": [
+        "/images/products/img-10.png",
+        "/images/products/img-10.png",
+        "/images/products/img-10.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": null,
+      "on_sale": false,
+      "sale_label": null,
+      "in_stock": true,
+      "rating": 4,
+      "review_count": 37,
+      "tags": [
+        "vegetable",
+        "spicy"
+      ]
+    },
+    {
+      "name": "Red Chili",
+      "slug": "red-chili",
+      "category_id": "fresh-vegetables",
+      "thumbnail": "/images/products/img-11.png",
+      "images": [
+        "/images/products/img-11.png",
+        "/images/products/img-11.png",
+        "/images/products/img-11.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": null,
+      "on_sale": false,
+      "sale_label": null,
+      "in_stock": true,
+      "rating": 4.1,
+      "review_count": 29,
+      "tags": [
+        "vegetable",
+        "spicy"
+      ]
+    },
+    {
+      "name": "Chinese Cabbage Deal",
+      "slug": "chinese-cabbage-deal",
+      "category_id": "fresh-vegetables",
+      "thumbnail": "/images/products/img-12.png",
+      "images": [
+        "/images/products/img-12.png",
+        "/images/products/img-12.png",
+        "/images/products/img-12.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": 7.49,
+      "on_sale": true,
+      "sale_label": "50%",
+      "in_stock": true,
+      "is_hot_deal": true,
+      "rating": 4.6,
+      "review_count": 524,
+      "tags": [
+        "vegetable",
+        "sale"
+      ]
+    },
+    {
+      "name": "Red Tomato",
+      "slug": "red-tomato",
+      "category_id": "fresh-vegetables",
+      "thumbnail": "/images/products/img-14.png",
+      "images": [
+        "/images/products/img-14.png",
+        "/images/products/img-14.png",
+        "/images/products/img-14.png"
+      ],
+      "regular_price": 14.99,
+      "sale_price": null,
+      "on_sale": false,
+      "sale_label": null,
+      "in_stock": true,
+      "rating": 4.5,
+      "review_count": 188,
+      "tags": [
+        "vegetable",
+        "fresh"
+      ]
+    }
+  ]
+}

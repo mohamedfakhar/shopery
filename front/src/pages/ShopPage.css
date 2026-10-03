@@ -1,0 +1,136 @@
+.shop__banner {
+  background: var(--green);
+  padding: 40px 0;
+  color: white;
+}
+
+.shop__banner h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.shop__banner p {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.shop__body {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 28px;
+  padding-top: 32px;
+  padding-bottom: 48px;
+}
+
+/* Sidebar */
+.shop__sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sidebar__section {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.sidebar__section h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar__price input {
+  width: 100%;
+  accent-color: var(--green);
+}
+
+.sidebar__price p {
+  font-size: 13px;
+  color: var(--gray);
+  margin-top: 6px;
+}
+
+/* Main */
+.shop__toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+
+.shop__count {
+  font-size: 14px;
+  color: var(--gray);
+}
+
+.shop__search input {
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 14px;
+  outline: none;
+  width: 200px;
+  transition: border .2s;
+}
+
+.shop__search input:focus {
+  border-color: var(--green);
+}
+
+.shop__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.shop__loading,
+.shop__empty {
+  text-align: center;
+  padding: 60px;
+  color: var(--gray);
+  font-size: 16px;
+}
+
+/* Pagination */
+.shop__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.page__btn {
+  padding: 8px 20px;
+  border: 1.5px solid var(--green);
+  border-radius: var(--radius);
+  background: white;
+  color: var(--green);
+  font-weight: 500;
+  font-size: 14px;
+  transition: all .2s;
+}
+
+.page__btn:hover:not(:disabled) {
+  background: var(--green);
+  color: white;
+}
+
+.page__btn:disabled {
+  border-color: var(--border);
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.page__current {
+  font-size: 14px;
+  color: var(--gray);
+}
